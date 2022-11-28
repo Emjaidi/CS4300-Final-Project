@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
     margin: 0;
-    
+
 }
 
 h1{
@@ -36,20 +36,10 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+}
 
 li a:hover {
     background-color: #111;
-  }
-
-div.container1{
-    height: 10em;
-    display: flex;
-    align-items: center;
-    justify-content: center
-}
-div.container1 h1{
-    margin: 0;
 }
 
 .heading-container{
@@ -62,6 +52,16 @@ div.container1 h1{
     border-bottom: 1px solid #dee2e6;
 }
 
+div.container1{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+div.container1 h1{
+    margin: 0;
+}
 
 .landing-top-container{
     height: 45vh;
