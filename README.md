@@ -1,3 +1,27 @@
 Group 1 Project for CS4300
 ---
-
+## Plans for the website:
+- Website ToDo
+	- [ ] Add JavaScript to the design
+		- Ideas
+			- [ ] How many people have bought this item
+			- [ ] How many caps are left in tock of certain product
+	- [ ] CSS
+		- Media
+			- [ ] Upon a certain width the navigation bar adapts
+				- [ ] Once it gets small enough it becomes ellipses in the corner
+		- [ ] Color Palette
+		- [ ] Borders added to group sections together
+			- [ ] Index
+			- [ ] Cart
+			- [ ] Products
+			- [ ] About
+        - [ ] Add pics vids to pages
+            - [ ] Index
+                - [ ] Pic of keycaps behind name of site
+            - [ ] Cart
+                - [ ] maybe a vid from https://www.pexels.com/search/videos/shopping%20cart/
+            - [ ] Contact
+                - [ ] Maybe a pic of a telephone cord or a mailbox...
+            - [ ] About
+                - [ ] Generic photo of a dev team, but with their faces photoshopped of just Mine and Andy's face
