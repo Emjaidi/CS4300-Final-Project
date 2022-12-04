@@ -9,7 +9,7 @@ h1{
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
     font-family: 'Helvetica', sans-serif;
-    color: #66BFBF;
+    color: #c2b490;
 }
 p{
     display: block;
@@ -22,8 +22,17 @@ p{
 
 header{
     padding: 1rem;
-    background-color: #212529;
+    background-color: #acb7ae;
     font-family: Arial, Helvetica, sans-serif
+}
+
+.website-logo{
+    font-family: 'Key Normal (c) SD';
+    font-size: 1.5rem;
+    color: #82716e;
+    position:absolute;
+    bottom: 90%;
+    
 }
 
 .nav-list{
@@ -40,24 +49,24 @@ li{
 
 li a {
     display: block;
-    color: white;
+    color: #e4decd;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #82716e;
 }
 
 .heading-container{
     display: flex;
-    justify-content: left;
+    justify-content: right;
     flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-bottom: 1rem;
-    border-bottom: 1px solid #dee2e6;
+    border-bottom: 1px solid #e4decd;
 }
 
 div.container1{
@@ -73,12 +82,12 @@ div.container1 h1{
 
 .meat {/*Container for the middle section of the pages*/
     padding: 50px;
-    background: rgb(195, 150, 195);   
+    background: #acb7ae;   
 }
 
 .landing-top-container{
     height: 45vh;
-    background-color: #E98580;
+    background-color: #82716e;
     background-image: url("./landing_banner.jpeg");
     position:center ;
     padding-top: 100px;
@@ -87,7 +96,7 @@ div.container1 h1{
 
 .contact-top-container{
     height: 45vh;
-    background-color: #E98580;
+    background-color: #82716e;
     position:center ;
     padding-top: 100px;
     padding-bottom: 0;
@@ -98,14 +107,14 @@ div.container1 h1{
 
 .landing-middle-container{
     height: 80vh;
-    background-color: peru;
+    background-color: #82716e;
     position: relative;
     padding-top: 100px;
     padding-bottom: 0;
 }
 .landing-bottom-container{
     height: 80vh;
-    background-color: rgb(63, 158, 205);
+    background-color: #82716e;
     position: relative;
     padding-top: 100px;
     padding-bottom: 0;
@@ -113,7 +122,7 @@ div.container1 h1{
 
 .landing-subscribe-container{
     height: 45vh;
-    background-color: papayawhip;
+    background-color: #82716e;
     position: relative;
     padding-top: 100px;
     padding-bottom: 0;
@@ -121,15 +130,60 @@ div.container1 h1{
 
 .footer-container{
     height: 5vh;
-    background-color: rgb(85, 59, 20);
+    background-color: #82716e;
     position: relative;
     padding-top: 20px;
     padding-bottom: 10rem;
 }
 .copyright{
-    color: #EAF6F6;
+    color: #c2b490;
     text-align: center;
     font-family:fantasy;
     font-size: 0.75rem;
     padding: 20px 0;
   }
+
+/* container for the image on the HOME Page*/
+.home-landing-top-container {
+    position: relative;
+    margin: auto;
+    font-size: 0;
+  }
+  
+  /* Hide the image by default */
+  .home-landing-top-container-hide {
+    display: none;
+    background: #e4decd;   
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  
+  /* slogan text */
+  .slogan {
+    color: #c2b490;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 80%;
+    width: 100%;
+    text-align: left;
+  }
+  
+  /* fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @font-face {
+    font-family: 'Key Normal (c) SD';
+    src: url('KeyNormalSD1994.woff2') format('woff2'),
+        url('KeyNormalSD1994.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
