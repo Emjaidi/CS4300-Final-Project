@@ -8,8 +8,16 @@ h1{
     display: block;
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
-    font-family: 'Cabin Sketch', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     color: #66BFBF;
+}
+p{
+    display: block;
+    font-size: 2.625vw;
+    margin: 50px 10px 25px 25px;
+    text-align: right;
+    font-family: 'Helvetica', sans-serif;
+    color: #2a2b26;
 }
 
 header{
@@ -63,12 +71,29 @@ div.container1 h1{
     margin: 0;
 }
 
+.meat {/*Container for the middle section of the pages*/
+    padding: 50px;
+    background: rgb(195, 150, 195);   
+}
+
 .landing-top-container{
     height: 45vh;
     background-color: #E98580;
-    position: relative;
+    background-image: url("./landing_banner.jpeg");
+    position:center ;
     padding-top: 100px;
     padding-bottom: 0;
+}
+
+.contact-top-container{
+    height: 45vh;
+    background-color: #E98580;
+    position:center ;
+    padding-top: 100px;
+    padding-bottom: 0;
+}
+.contact-banner{
+    opacity: 0.4;
 }
 
 .landing-middle-container{
@@ -95,9 +120,16 @@ div.container1 h1{
 }
 
 .footer-container{
-    height: 25vh;
+    height: 5vh;
     background-color: rgb(85, 59, 20);
     position: relative;
     padding-top: 20px;
     padding-bottom: 10rem;
 }
+.copyright{
+    color: #EAF6F6;
+    text-align: center;
+    font-family:fantasy;
+    font-size: 0.75rem;
+    padding: 20px 0;
+  }
