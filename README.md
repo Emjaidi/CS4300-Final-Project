@@ -25,3 +25,7 @@ Group 1 Project for CS4300
                 - [ ] Maybe a pic of a telephone cord or a mailbox...
             - [ ] About
                 - [ ] Generic photo of a dev team, but with their faces photoshopped of just Mine and Andy's face
+		- [ ] Photos for site:
+			- [ ] https://www.istockphoto.com/search/2/image?phrase=mechanical%20keyboard
+		- [ ] Carousel for the landing product on showcase: https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734
+
