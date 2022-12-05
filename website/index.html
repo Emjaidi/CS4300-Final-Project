@@ -54,8 +54,18 @@
   <div class="meat">
 
   <div class="landing-subscribe-container">
-    <h1>This is the location for the user to subscribe to a newsletter...</h1>
-    <p>With a message that pops up with "Congrats [name] check your email for your 10% off code"</p>
+    <div class="main">
+      <form id="singular-form">
+          <button class="shown" type="button" id="subs">Sign-up for product updates</button>
+          <div id="email-input">
+              <input type="text" placeholder="E-mail" id="email">
+              <button type="button" class="addbut1" disabled="disabled">Add Me</button>
+          </div>
+          <div id="success">Congrats!</div>
+      </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script  src="function.js"></script>
   </div>
   </div>
   <div class="footer-container">
